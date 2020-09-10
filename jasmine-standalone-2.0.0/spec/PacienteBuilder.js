@@ -19,6 +19,16 @@ function PacienteBuilder() {
         comPeso: function (valor) {
             peso = valor;
             return this;
+        },
+
+        comAltura : function(valor){
+            altura = valor;
+            return this;
+        },
+
+        comNome : function(valor){
+            nome = valor;
+            return this;
         }
     };
 
